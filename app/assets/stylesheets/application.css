@@ -25,14 +25,16 @@
 	color:#32CD32;
 }
 body{
-	background-color:black;
 	background-image:url('fake_img.png');
 	background-size:cover;
 	background-position: bottom;
 	background-repeat: no-repeat;
 
 }
+.uppercase{
+	text-transform: uppercase;
 
+}
 #header{
 
 	display: flex;
@@ -57,4 +59,14 @@ h1{
 h3{
 
 	font-size:2rem;
+}
+
+.table,
+.table td,
+.table th {
+  background-color: transparent !important;
+}
+
+.table td{
+	color:white;
 }
