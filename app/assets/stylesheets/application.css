@@ -70,7 +70,9 @@ h3{
 .table th {
   background-color: transparent !important;
 }
-
+.table tr{
+	border:1px solid transparent;
+}
 .table td{
 	color:white;
 }
